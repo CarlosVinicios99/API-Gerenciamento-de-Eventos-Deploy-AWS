@@ -207,3 +207,30 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:11:43.549
 !MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:29:26.983
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:29:58.362
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:30:13.541
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:30:35.769
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:30:58.552
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:31:19.237
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:31:28.744
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:31:45.191
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 12:34:04.082
+!MESSAGE Classpath changed for project: api
