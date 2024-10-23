@@ -120,3 +120,42 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:46:51.299
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:48:00.082
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:48:09.931
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:50:02.460
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:50:16.791
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:51:04.780
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:51:46.822
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:51:57.443
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:52:26.578
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:52:50.411
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:53:18.240
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:56:41.164
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-23 11:57:31.817
+!MESSAGE Classpath changed for project: api
