@@ -1,0 +1,14 @@
+package com.eventostec.api.domain.coupon;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Table(name = "coupons")
+@Entity
+public class Coupon implements Serializable {
+	
+	
+	
+}
