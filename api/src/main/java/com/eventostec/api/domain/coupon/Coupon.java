@@ -7,6 +7,8 @@ import java.util.UUID;
 import com.eventostec.api.domain.event.Event;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
@@ -17,6 +19,8 @@ public class Coupon implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
+	@Id
+	@GeneratedValue
 	private UUID id;
 	
 	private String code;

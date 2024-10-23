@@ -1,0 +1,4 @@
+spring.application.name=api
+spring.datasource.url=jdbc:postgresql://localhost:5432/gerenciador_de_eventos
+spring.datasource.username=postgres
+spring.datasource.password=admin123
