@@ -25,7 +25,7 @@ public class Address implements Serializable {
 	
 	private String city;
 	
-	private String state;
+	private String uf;
 	
 	@ManyToOne
 	@JoinColumn(name = "event_id")
@@ -36,11 +36,11 @@ public class Address implements Serializable {
 		
 	}
 
-	public Address(UUID id, String city, String state, Event event) {
+	public Address(UUID id, String city, String uf, Event event) {
 		super();
 		this.id = id;
 		this.city = city;
-		this.state = state;
+		this.uf = uf;
 		this.event = event;
 	}
 	
@@ -61,12 +61,12 @@ public class Address implements Serializable {
 		this.city = city;
 	}
 
-	public String getState() {
-		return state;
+	public String getUf() {
+		return uf;
 	}
 
-	public void setState(String state) {
-		this.state = state;
+	public void setUf(String uf) {
+		this.uf = uf;
 	}
 
 	public Event getEvent() {

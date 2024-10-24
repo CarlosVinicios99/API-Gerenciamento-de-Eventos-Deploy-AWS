@@ -30,6 +30,9 @@ public class EventService {
 	@Autowired
 	private AmazonS3 s3Client;
 	
+	@Autowired 
+	private AddressService addressService;
+	
 	@Value("${aws.bucket.name}")
 	private String bucketName;
 	
@@ -51,6 +54,10 @@ public class EventService {
 		newEvent.setRemote(data.remote());
 		
 		this.eventRepository.save(newEvent);
+		
+		if(!data.remote()) {
+			this.addressService.createAddress(data, newEvent);
+		}
 		
 		return newEvent;
 	}
