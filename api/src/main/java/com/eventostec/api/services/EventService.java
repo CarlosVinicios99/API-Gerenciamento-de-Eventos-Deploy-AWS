@@ -55,7 +55,6 @@ public class EventService {
 		return newEvent;
 	}
 	
-	/*
 	public List<EventResponseDTO> getEvents(int page, int size) {
 		Pageable pageable = PageRequest.of(page, size);
 		Page<Event> eventsPage = this.eventRepository.findAll(pageable);
@@ -72,7 +71,6 @@ public class EventService {
 			)
 		).stream().toList();
 	}
-	*/
 	
 	private String uploadImage(MultipartFile multipartFile) {
 		

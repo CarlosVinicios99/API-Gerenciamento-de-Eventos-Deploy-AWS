@@ -2779,3 +2779,9 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-24 15:01:58.932
 !MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-24 15:05:53.250
+!MESSAGE Classpath changed for project: api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-24 15:06:09.306
+!MESSAGE Classpath changed for project: api
