@@ -49,4 +49,13 @@ public class EventController {
 		return ResponseEntity.ok(allEvents);
 	}
 	
+	@GetMapping("/upcoming")
+	public ResponseEntity<List<EventResponseDTO>> getUpcomingEvents(
+		@RequestParam(defaultValue = "0") int page, 
+		@RequestParam(defaultValue = "10") int size
+	){
+		List<EventResponseDTO> allEvents = this.eventService.getUpcomingEvents(page, size);
+		return ResponseEntity.ok(allEvents);
+	}
+	
 }
