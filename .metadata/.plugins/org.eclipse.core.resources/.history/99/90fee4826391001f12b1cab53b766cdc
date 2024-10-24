@@ -1,0 +1,12 @@
+package com.eventostec.api.services;
+
+import org.springframework.stereotype.Service;
+
+import com.eventostec.api.domain.event.Event;
+
+@Service
+public class EventService {
+	
+	public Event createEvent()
+	
+}

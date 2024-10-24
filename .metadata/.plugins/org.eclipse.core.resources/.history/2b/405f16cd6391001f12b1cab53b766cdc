@@ -1,0 +1,26 @@
+package com.eventostec.api.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.eventostec.api.domain.event.Event;
+import com.eventostec.api.domain.event.EventRequestDTO;
+import com.eventostec.api.repositories.EventRepository;
+
+@Service
+public class EventService {
+	
+	@Autowired
+	EventRepository eventRepository;
+	
+	public Event createEvent(EventRequestDTO data) {
+		
+		String imgUrl = null;
+		
+		if(data.image() != null) {
+			
+		}
+		
+	}
+	
+}

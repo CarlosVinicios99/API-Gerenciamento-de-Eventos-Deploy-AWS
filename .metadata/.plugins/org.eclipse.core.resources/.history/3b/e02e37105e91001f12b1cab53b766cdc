@@ -1,0 +1,5 @@
+package com.eventostec.api.domain.event;
+
+public record EventRequestDTO(String title, String description) {
+
+}
