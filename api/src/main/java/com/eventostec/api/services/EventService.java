@@ -43,6 +43,9 @@ public class EventService {
 		newEvent.setEventUrl(data.eventUrl());
 		newEvent.setDate(new Date(data.date()));
 		newEvent.setImgUrl(imgUrl);
+		newEvent.setRemote(data.remote());
+		
+		this.eventRepository.save(newEvent);
 		
 		return newEvent;
 	}
@@ -60,7 +63,7 @@ public class EventService {
 		}
 		catch(Exception error) {
 			System.out.println("Erro ao salvar arquivo no bucket " + error.getMessage());
-			return null;
+			return "";
 		}
 		
 	}
