@@ -1,0 +1,22 @@
+package com.eventostec.api.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.eventostec.api.domain.coupon.Coupon;
+import com.eventostec.api.repositories.CouponRepository;
+
+@Service
+public class CouponService {
+	
+	@Autowired
+	private CouponRepository couponRepository;
+	
+	
+	public Coupon addCouponToEvent() {
+		
+		
+		
+	}
+	
+}
