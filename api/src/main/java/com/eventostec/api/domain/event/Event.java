@@ -4,10 +4,14 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.UUID;
 
+import com.eventostec.api.domain.address.Address;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Table(name = "events")
@@ -34,12 +38,14 @@ public class Event implements Serializable {
 	
 	private Date date;
 	
+	@OneToOne(mappedBy = "event", cascade = CascadeType.ALL)
+	private Address address;
 	
 	public Event() {
 		
 	}
 
-	public Event(UUID id, String title, String description, String imgUrl, String eventUrl, Boolean remote, Date date) {
+	public Event(UUID id, String title, String description, String imgUrl, String eventUrl, Boolean remote, Date date, Address address) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -48,6 +54,7 @@ public class Event implements Serializable {
 		this.eventUrl = eventUrl;
 		this.remote = remote;
 		this.date = date;
+		this.address = address;
 	}
 
 	public UUID getId() {
@@ -104,6 +111,14 @@ public class Event implements Serializable {
 
 	public void setDate(Date date) {
 		this.date = date;
+	}
+	
+	public Address getAddress() {
+		return address;
+	}
+	
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 	
 }
