@@ -1,1 +1,1 @@
-# Autenticação e Autorização Com JWT e Spring Security
+# API Gerenciamento de Eventos e Deploy com AWS
