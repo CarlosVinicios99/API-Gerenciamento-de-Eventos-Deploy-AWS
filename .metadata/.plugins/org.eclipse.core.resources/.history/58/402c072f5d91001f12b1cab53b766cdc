@@ -1,4 +1,0 @@
-CREATE TABLE addresses (
-	id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-	
-);

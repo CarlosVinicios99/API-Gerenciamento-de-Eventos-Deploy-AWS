@@ -1,7 +1,0 @@
-package com.eventostec.api.domain.event;
-
-import java.util.Date;
-
-public record EventRequestDTO(String title, String description, Date date, String city, String state) {
-
-}

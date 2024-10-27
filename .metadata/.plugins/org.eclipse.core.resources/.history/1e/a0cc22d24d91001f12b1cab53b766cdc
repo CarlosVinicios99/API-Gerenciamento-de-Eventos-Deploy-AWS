@@ -1,8 +1,0 @@
-package com.eventostec.api.domain.event;
-
-import jakarta.persistence.Table;
-
-@Table(name = "TABLE_EVENTS")
-public class Event {
-
-}

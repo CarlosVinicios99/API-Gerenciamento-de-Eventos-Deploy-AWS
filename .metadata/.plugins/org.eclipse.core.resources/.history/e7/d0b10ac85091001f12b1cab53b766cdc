@@ -1,8 +1,0 @@
-package com.eventostec.api.domain.address;
-
-import jakarta.persistence.Table;
-
-@Table(name = "addresses")
-public class Address {
-
-}
